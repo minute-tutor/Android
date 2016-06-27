@@ -5,4 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="my_tutors">My Tutors</string>
+    <string name="my_students">My Students</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
 </resources>

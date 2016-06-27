@@ -12,6 +12,9 @@ public class SettingsFragment extends Fragment {
         if (container != null) {
             container.removeAllViews();
         }
+
+        getActivity().setTitle(R.string.settings);
+
         return inflater.inflate(R.layout.settings_fragment, container, false);
     }
 }

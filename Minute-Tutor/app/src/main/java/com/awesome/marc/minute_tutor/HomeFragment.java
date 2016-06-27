@@ -12,6 +12,9 @@ public class HomeFragment extends Fragment {
         if (container != null) {
             container.removeAllViews();
         }
-        return inflater.inflate(R.layout.home_fragment, container, false);
+
+        getActivity().setTitle(R.string.home);
+
+        return inflater.inflate(R.layout.learn_fragment, container, false);
     }
 }

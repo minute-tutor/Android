@@ -12,6 +12,6 @@ public class DefaultFragment extends Fragment {
         if (container != null) {
             container.removeAllViews();
         }
-        return inflater.inflate(R.layout.home_fragment, container, false);
+        return inflater.inflate(R.layout.learn_fragment, container, false);
     }
 }

@@ -12,6 +12,9 @@ public class ProfileFragment extends Fragment {
         if (container != null) {
             container.removeAllViews();
         }
+
+        getActivity().setTitle(R.string.profile);
+
         return inflater.inflate(R.layout.profile_fragment, container, false);
     }
 }

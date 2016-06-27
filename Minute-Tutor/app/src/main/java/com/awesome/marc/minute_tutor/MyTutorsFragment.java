@@ -12,6 +12,9 @@ public class MyTutorsFragment extends Fragment {
         if (container != null) {
             container.removeAllViews();
         }
+
+        getActivity().setTitle(R.string.my_tutors);
+
         return inflater.inflate(R.layout.my_tutors_fragment, container, false);
     }
 }

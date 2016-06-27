@@ -5,19 +5,19 @@
         <item
                 android:id="@+id/nav_home"
                 android:icon="@drawable/ic_home"
-                android:title="Home"/>
+                android:title="@string/home"/>
         <item
                 android:id="@+id/nav_my_tutors"
                 android:icon="@drawable/ic_tutors"
-                android:title="My Tutors"/>
+                android:title="@string/my_tutors"/>
         <item
                 android:id="@+id/nav_my_students"
                 android:icon="@drawable/ic_students"
-                android:title="My Students"/>
+                android:title="@string/my_students"/>
         <item
                 android:id="@+id/nav_profile"
                 android:icon="@drawable/ic_profile"
-                android:title="Profile"/>
+                android:title="@string/profile"/>
     </group>
 
     <item android:title="">
@@ -25,7 +25,7 @@
             <item
                     android:id="@+id/nav_settings"
                     android:icon="@drawable/ic_settings"
-                    android:title="Settings"/>
+                    android:title="@string/settings"/>
         </menu>
     </item>
 
